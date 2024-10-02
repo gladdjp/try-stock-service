@@ -16,3 +16,4 @@ services:
 networks:
   try-network:
     driver: bridge
+    name: try-network
