@@ -56,5 +56,6 @@ export class HelloConsumer extends KafkaConsumer {
 
   handler(message: KafkaMessage): void {
     console.log('Message recieved!');
+    console.log(message);
   }
 }
